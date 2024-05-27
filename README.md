@@ -95,7 +95,7 @@ The output can also be asynchronous using the code below.
 ```python
 import asyncio
 import openai
-from your_openai_agent_package import GPTAgent
+from agenpy.openai import GPTAgent
 
 async def main():
     # Initialize the GPTAgent with async mode enabled and your API key
@@ -117,7 +117,7 @@ The output can also be streamed using the code below.
 
 ```python
 import openai
-from your_openai_agent_package import GPTAgent
+from agenpy.openai import GPTAgent
 
 def main():
     # Initialize the GPTAgent with your API key
@@ -139,7 +139,7 @@ The output can also be asynchronously streamed using the code below.
 ```python
 import asyncio
 import openai
-from your_openai_agent_package import GPTAgent
+from agenpy.openai import GPTAgent
 
 async def main():
     # Initialize the GPTAgent with async mode enabled and your API key
